@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "next": "^1.2.3",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "next": "beta",
     "react-markdown": "^2.4.2"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon .",
     "build": "next build",
     "start": "next start"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "author": "Ash",
   "description": ""
 }
